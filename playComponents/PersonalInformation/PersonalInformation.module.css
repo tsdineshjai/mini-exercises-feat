@@ -1,0 +1,66 @@
+.personalInfo {
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  text-align: left;
+  padding: 2rem 0;
+  height: 72vh;
+}
+
+input {
+  display: block;
+  width: 248px;
+}
+
+label {
+  width: 248px;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+.footer {
+
+  height: 10vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+
+}
+
+button {
+  height: 75px;
+  width: 175px;
+  border-radius: 11px;
+  border: 1px solid darkblue;
+
+}
+
+.reset {
+  margin-left: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkblue;
+  background: transparent;
+
+
+}
+
+.continue {
+
+  margin-right: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: darkblue;
+  color: white;
+  border: white;
+
+}
+
+span {
+  margin-left: 0.5rem;
+}
