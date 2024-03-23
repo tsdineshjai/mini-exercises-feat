@@ -1,0 +1,38 @@
+.relloContainer {
+
+
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-evenly;
+
+}
+
+.upcoming, .finished {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid white;
+  padding: 2rem;
+  border-radius: 11px;
+
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cards button {
+  padding: 1rem;
+}
+
+.relloContainer header {
+  text-align: center;
+  color: white;
+  font-size: 1.15cm;
+}
+
+.cards button:hover {
+  cursor: pointer;
+}

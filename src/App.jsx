@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Header from "../playComponents/Header";
+import Rello from "../Rellocomponents/Rello";
 
 function App() {
 	return (
 		<div>
-			<Header />
+			<Rello />
 		</div>
 	);
 }

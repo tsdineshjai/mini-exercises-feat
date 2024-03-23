@@ -2,42 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-
-
-
-.container {
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-  place-items: center;
-  justify-content: center;
-  gap: 0.25rem;
-
 
 }
 
 
-.letterSee, .letterVee {
-  font-size: larger;
-  color: brown;
-  padding: 1rem;
-  border: solid 1px darkblue;
-  border-radius: 11px;
-  height: 100px;
-  width: 100px;
-  text-align: center;
-  display: grid;
-  place-items: center;
-  position: relative;
-  color: darkblue;
-  background: url("http://sugarbird.skyauction.com/content/qart_140775b.jpg");
-  background-size: 7% 100%;
-  background-repeat: no-repeat;
-}
-
-.letterC, .letterV {
-  padding: .75rem;
-  border-bottom: 0.5px solid;
+body {
+  background: steelblue;
 }
