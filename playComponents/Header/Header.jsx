@@ -9,6 +9,10 @@ function Header() {
 	function handleClick(value) {
 		setStep(Number(value));
 	}
+	function footerHandleClick() {
+		if (step >= 4) return;
+		setStep((currentValue) => currentValue + 1);
+	}
 	return (
 		<>
 			<div className={styles.header}>
@@ -22,8 +26,13 @@ function Header() {
 					handleClick={handleClick}
 				/>
 			</div>
-
 			{step === 1 && <PersonalInformation />}
+			<footer className={styles.footer}>
+				<button className={styles.reset}>RESET</button>
+				<button className={styles.continue} onClick={footerHandleClick}>
+					{step >= 3 ? "SUBMIT" : "CONTINUE"} <span>&gt;&gt;</span>
+				</button>
+			</footer>
 		</>
 	);
 }

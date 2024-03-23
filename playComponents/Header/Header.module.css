@@ -2,3 +2,48 @@
   background-color: darkblue;
   color: white;
 }
+
+.footer {
+
+  height: 10vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+button {
+  height: 75px;
+  width: 175px;
+  border-radius: 11px;
+  border: 1px solid darkblue;
+
+}
+
+.reset {
+  margin-left: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: darkblue;
+  background: transparent;
+
+
+}
+
+.continue {
+
+  margin-right: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: darkblue;
+  color: white;
+  border: white;
+
+}
+
+span {
+  margin-left: 0.5rem;
+}

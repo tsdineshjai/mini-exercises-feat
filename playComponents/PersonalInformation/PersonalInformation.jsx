@@ -10,13 +10,6 @@ function PersonalInformation() {
 				<label htmlFor="email">Email Address:</label>
 				<input type="email" name="email" id="email" />
 			</div>
-
-			<footer className={styles.footer}>
-				<button className={styles.reset}>RESET</button>
-				<button className={styles.continue}>
-					CONTINUE <span>&gt;&gt;</span>
-				</button>
-			</footer>
 		</>
 	);
 }
