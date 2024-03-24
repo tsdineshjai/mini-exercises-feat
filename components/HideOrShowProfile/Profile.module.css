@@ -1,0 +1,38 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  height: 100vh;
+}
+
+
+img {
+  height: 20vh;
+  width: 20vw;
+}
+
+
+.image {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-bottom: 1rem;
+  background-color: rgb(95, 147, 43);
+}
+
+.image:hover {
+  cursor: pointer;
+}
+
+.profileContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  background-color: transparent;
+  color: rgb(2, 2, 33);
+  border: 1px solid white;
+  padding: 2rem;
+  border-radius: 11px;
+}

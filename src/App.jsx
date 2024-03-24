@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Rello from "../Rellocomponents/Rello";
+import Profile from "../components/HideOrShowProfile/Profile";
 
 function App() {
 	return (
 		<div>
-			<Rello />
+			<Profile />
 		</div>
 	);
 }
