@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Profile from "../components/HideOrShowProfile/Profile";
+import FoodOrder from "../components/MultipleCheckBoxChallenge/FoodOrder";
 
 function App() {
 	return (
 		<div>
-			<Profile />
+			<FoodOrder />
 		</div>
 	);
 }
